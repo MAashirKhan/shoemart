@@ -35,13 +35,13 @@ export class Header extends Component {
                         <li><Link to="/contact">Contact</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li className="close" onClick={this.menuToggle}>
-                            <img src={Close} alt="" width="30"/>
+                            <img src={Close} alt="" width="20"/>
                         </li>
                     </ul>
                     <div className="nav-cart">
                         <span>0</span>
                         <Link to="/cart">
-                            <img src={CartIcon} alt="" width="20"/>
+                            <img src={CartIcon} alt="" width="30"/>
                         </Link>
                     </div>
                 </nav>

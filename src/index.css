@@ -14,3 +14,16 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+.Slider{
+  margin: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+
+}
+.sliderimg{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
