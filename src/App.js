@@ -1,11 +1,16 @@
 import React from 'react';
-import logo from './logo.png';
-import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+//Import Components
+import Header from './Components/header'
+import Section from './Components/section'
 
 function App() {
   return (
     <div className="App">
-      <img src={logo} alt="Logo Shoemart" />
+      <Router>
+          <Header/>
+          <Section />
+      </Router>
     </div>
   );
 }
